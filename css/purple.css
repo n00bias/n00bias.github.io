@@ -1,0 +1,53 @@
+
+/*************************************************
+ *  An Example Green Theme for Hugo Academic
+ *  Set `custom_css = ["green.css"] in `config.toml`.
+ *  Then save this file as `/static/css/green.css` relative to your website root (i.e. not in `themes/academic` directory).
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+ .navbar-default {
+     background-color: #4b0168;
+     border-color: #4b0168;
+     border-radius: 0;
+ }
+
+ .navbar-default .navbar-brand,
+ .navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-brand:focus {
+     color: #FFF;
+ }
+
+ .navbar-default .navbar-nav > li > a {
+     color: #FFF;
+ }
+
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+     background-color: #fff;
+ }
+
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+     color: #FFF;
+     background-color: #AA0000;
+ }
+
+ .navbar-default .navbar-text {
+     color: #FFF;
+ }
+
+ .navbar-default .navbar-toggle {
+     border-color: #fff;
+ }
+
+ .navbar-default .navbar-toggle:hover,
+ .navbar-default .navbar-toggle:focus {
+     background-color: #d97fef;
+     border-color: #fff;
+ }
+
+ .navbar-default .navbar-toggle .icon-bar {
+     background-color: #FFF;
+ }
